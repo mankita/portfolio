@@ -1,0 +1,138 @@
+
+
+html,body{
+    height:100%;
+   font-family:  "Josefin Sans", sans-serif;
+
+
+
+}
+
+
+h1,h2,h3,h4,h5,h6,p{
+    color:white;
+    margin-bottom:10px;
+    text-align: center;
+
+}
+
+
+
+nav{
+    position:fixed;
+    width:100%;
+    height:50px;
+    z-index:99;
+    text-align:right;
+    opacity: 0.7;
+
+
+
+
+}
+
+#languages{
+    
+    max-width: 500px;
+    float:left;
+    font-weight: 200px;
+    margin-top: 5em;
+    background-color:white;
+}
+
+ #languages ul li {
+    text-align: center;
+    font-size: 80px;
+     display: block;
+     float:left;
+     margin: 10px;
+     line-height: 50px;
+     
+     
+
+}
+
+
+
+li a{
+
+    text-decoration: none;
+    color:#fff;
+    margin-right:20px;
+    line-height: 50px;
+    font-family: sans-serif;
+    
+
+
+
+}
+
+
+
+
+.sect{
+    height:80%;
+    width:100%;
+    background-color: gray;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    padding:5em;
+    top:50%;
+  
+
+
+
+
+
+
+}
+
+section{
+    float:left;
+    width: 60%;
+    
+    
+}
+
+
+
+
+
+.subSection{
+    width:100%;
+    height:100%;
+    background-color: black;
+    padding:5em;
+    
+
+}
+
+.profile-container{
+    font-size:200px;
+    text-align:center;
+    left:50%;
+    top:60%;
+    color:white;
+}
+
+
+.home-content{
+    text-align: center;
+    line-height: 90px;
+    left:50%;
+    top:60%;
+    margin:0;
+    transform: translate(-50%, -50%);
+    
+    position: absolute;
+
+}
+
+.home-content h1{
+    border-bottom: 1px dotted white;
+    padding:20px;
+}
+
+
+

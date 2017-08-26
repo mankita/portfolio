@@ -1,0 +1,7 @@
+.bgimage{
+    background-image: url('../images/tiger.jpg');
+    background-position: center;
+    background-size: cover;
+    height:200px;
+
+}
