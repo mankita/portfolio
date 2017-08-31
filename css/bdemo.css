@@ -1,0 +1,178 @@
+
+
+html,body{
+    height:100%;
+
+
+
+}
+
+
+
+
+body{
+
+
+    width: 100%;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    background: #1c1c1d;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+
+
+.navbar-inverse{
+    background-color: transparent;
+    border-color: transparent;
+    width: 100%;
+   
+}
+
+.sect {
+    height:100%;
+    width:100%;
+    background-color:#2C343B;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    padding:2.5em;
+    color: white;
+
+}
+
+.sectOne {
+    height:100%;
+    width:100%;
+    background-image: url("../images/home.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    padding:2.5em;
+    color: white;
+
+}
+
+.scroller{
+    color: white;
+}
+
+
+
+a:focus, a:hover {
+    color: darkred;
+    text-decoration: none;
+}
+
+.container h2{
+    text-align: center;
+    font-weight: bold;  
+    font-size: 2.5em;
+    padding-bottom: 1em;
+
+
+}
+
+
+.contact{
+
+    text-align: center;
+
+}
+
+.secto{
+    height:100%;
+    width:100%;
+    background-color:black;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    padding:2em;
+    color:white;
+
+
+} 
+
+#experience-section{
+    height:200%;
+    width:100%;
+    color:white;
+    overflow: auto;
+    display: block;
+
+
+
+
+}
+
+
+
+
+.intro{
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+#languages tr td {
+    text-align: center;
+    font-size: 5em;
+    line-height: 1.5em;
+}
+
+
+.company1{
+    background-color: darkgray;
+    float:left; 
+    margin-bottom: 1em;
+
+}
+
+
+.company2{
+    background-color:darkgray;
+    float:right;
+    margin-bottom: 1em;
+
+}
+
+
+.darkred-heading{
+    font-weight: bold;   
+    text-align: left;
+    color:darkred;
+
+
+}
+
+.progress-bar{
+    background-color:white;
+    color:black;
+    font-weight: bold;
+    font-size: 1em;
+    animation-delay: 1000;
+}
+
+.progress{
+    background-color:dimgray;
+    margin: 2em;
+}
+
+.contact-icon{
+    width: 80px;
+    padding:1em;
+    float:right;
+}
+
+

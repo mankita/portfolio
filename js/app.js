@@ -1,19 +1,47 @@
 $(document).ready(function(){
     setContents();
+    hideContents();
 });
 
+//scrolling to div when clicked on nav links
 
 function setContents(){
-    $("li a").click(function(e) {
+    $(".scroller").click(function(e) {
         e.preventDefault();
-        var sectionID = e.currentTarget.id + "-section"
-        //alert("Button " + sectionID)
+        //var sectionID = e.currentTarget.id + "-section"
+        var currentLink = $(this).attr('href');
+        //alert("Button " + currentLink)
         $("html body").animate({
-            scrollTop:$("#" + sectionID).offset().top
+            scrollTop:$(currentLink).offset().top
 
         }, 1000) 
 
     })
 }
 
-//scrollTop: $("#" + sectionID).offset().top - $("#" + sectionID).height() / 2
+//hiding menus on mobile when clicked on nav links
+function hideContents(){
+    $('.navbar-collapse a').click(function(){
+        $(".navbar-collapse").collapse('hide');
+    })
+}
+
+
+
+// onscroll animation for skills section(progress-bar)
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    var elementOffset = $('.company1').offset().top;
+   // prompt(elementOffset)
+
+    if (scroll >= 1500) {
+        $(".progress-bar").addClass("animated fadeInLeft");
+    }
+
+    if (scroll >=2000) {
+
+        $(".company1").addClass("animated fadeInUp");
+        $(".company2").addClass("animated fadeInUp");
+    }
+}); 
