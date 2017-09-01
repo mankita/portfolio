@@ -1,5 +1,7 @@
 
 
+
+
 html,body{
     height:100%;
 
@@ -29,30 +31,34 @@ body{
 .navbar-inverse{
     background-color: transparent;
     border-color: transparent;
-    width: 100%;
-   
+    width:100%;
+
 }
 
+
+
+
 .sect {
-    height:100%;
-    width:100%;
+
     background-color:#2C343B;
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
     padding:2.5em;
     color: white;
+    overflow: hidden;
+
 
 }
 
-.sectOne {
+.home {
     height:100%;
     width:100%;
     background-image: url("../images/home.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
-    padding:2.5em;
+    padding-top:2em;
     color: white;
 
 }
@@ -73,33 +79,30 @@ a:focus, a:hover {
     font-weight: bold;  
     font-size: 2.5em;
     padding-bottom: 1em;
+    display: block;
+ 
 
 
 }
 
 
-.contact{
-
-    text-align: center;
-
-}
 
 .secto{
-    height:100%;
-    width:100%;
+
+
     background-color:black;
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
-    padding:2em;
+    padding-top:2em;
     color:white;
+    overflow: hidden;
 
 
 } 
 
 #experience-section{
-    height:200%;
-    width:100%;
+    
     color:white;
     overflow: auto;
     display: block;
@@ -124,18 +127,28 @@ a:focus, a:hover {
 
 }
 
+.about{
+    height:100%;
+}
+
 
 #languages tr td {
     text-align: center;
     font-size: 5em;
     line-height: 1.5em;
+    overflow: auto;
+}
+
+.about{
+    padding-bottom: 0;
 }
 
 
 .company1{
     background-color: darkgray;
     float:left; 
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+    overflow: hidden;
 
 }
 
@@ -143,7 +156,8 @@ a:focus, a:hover {
 .company2{
     background-color:darkgray;
     float:right;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+    overflow: hidden;
 
 }
 
@@ -155,6 +169,8 @@ a:focus, a:hover {
 
 
 }
+
+
 
 .progress-bar{
     background-color:white;
@@ -169,10 +185,63 @@ a:focus, a:hover {
     margin: 2em;
 }
 
+.contact {
+    height:100%;
+    width:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    padding-top:2em;
+    color: white;
+
+}
+
 .contact-icon{
-    width: 80px;
+    width:70px;
     padding:1em;
     float:right;
 }
 
+/* Media Queries for Devices */
+
+@media only screen and (max-width: 768px) {
+    .about{
+        height:auto;
+        width: auto;
+        background-color: darkslategray;
+        overflow:hidden;
+    }
+    
+    #languages{
+        background-color: white;
+        height:auto;
+        width: auto;
+        margin-bottom: 1em;
+        text-align: center;
+        
+    }
+    
+    #languages tr td {
+    text-align: center;
+    font-size: 3em;
+    line-height: 1.0em;
+
+}
+    
+    #experience-section h2{
+        padding-top: 0.5em;
+    }
+    
+       #experience-section {
+    padding:1.5em;
+    }
+    
+    .navbar-inverse{
+    background-color: black;
+    border-color: black;
+    width:100%;
+
+}
+    
+}
 
