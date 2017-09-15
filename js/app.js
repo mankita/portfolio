@@ -1,6 +1,7 @@
 $(document).ready(function(){
     setContents();
     hideContents();
+    showProjects();
 });
 
 //scrolling to div when clicked on nav links
@@ -33,7 +34,7 @@ function hideContents(){
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
     var elementOffset = $('.company1').offset().top;
-   // prompt(elementOffset)
+    // prompt(elementOffset)
 
     if (scroll >= 1500) {
         $(".progress-bar").addClass("animated fadeInLeft");
@@ -45,3 +46,20 @@ $(window).scroll(function() {
         $(".company2").addClass("animated fadeInUp");
     }
 }); 
+
+function showProjects(){
+    $(".projects-filter button a").click(function(e){
+        e.preventDefault();
+        var projectContent = $(this).attr('data-filter'); 
+        $(projectContent).toggle();
+       
+    });
+
+
+}
+
+
+
+
+
+

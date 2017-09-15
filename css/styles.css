@@ -16,7 +16,7 @@ body{
 
 
     width: 100%;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 100;
     letter-spacing: 0.5px;
     line-height: 1.5;
@@ -29,8 +29,7 @@ body{
 
 
 .navbar-inverse{
-    background-color: transparent;
-    border-color: transparent;
+
     width:100%;
 
 }
@@ -63,8 +62,10 @@ body{
 
 }
 
+
 .scroller{
     color: white;
+
 }
 
 
@@ -80,7 +81,7 @@ a:focus, a:hover {
     font-size: 2.5em;
     padding-bottom: 1em;
     display: block;
- 
+
 
 
 }
@@ -90,7 +91,7 @@ a:focus, a:hover {
 .secto{
 
 
-    background-color:black;
+
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -102,7 +103,7 @@ a:focus, a:hover {
 } 
 
 #experience-section{
-    
+
     color:white;
     overflow: auto;
     display: block;
@@ -137,6 +138,7 @@ a:focus, a:hover {
     font-size: 5em;
     line-height: 1.5em;
     overflow: auto;
+    padding-left: 0.5em;
 }
 
 .about{
@@ -145,47 +147,111 @@ a:focus, a:hover {
 
 
 .company1{
-    background-color: darkgray;
+    background-color: #51616d;
     float:left; 
     margin-bottom: 2em;
     overflow: hidden;
+    padding-right:20px; 
+    border-right: 1px solid #ccc;
 
 }
 
 
+
 .company2{
-    background-color:darkgray;
+    background-color:#51616d;
     float:right;
     margin-bottom: 2em;
     overflow: hidden;
 
-}
-
-
-.darkred-heading{
-    font-weight: bold;   
-    text-align: left;
-    color:darkred;
-
 
 }
 
+.divider {
+    height: 1px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+    opacity: 0.2;
 
+}
+
+
+.company-name{
+    line-height: 110%;
+    text-align: right;
+    color:red;
+    font-size: 1.50em;
+
+
+}
+
+.skills p{
+    margin-top:2em;
+}
+.skills h3{
+    text-align:center;
+    color: red;
+}
+
+.experience p{
+    margin: 2em 0em 2em 0em;
+
+}
+
+.experience h5,h6{
+    text-align:right;
+    line-height: 110%;
+
+}
+
+.role{
+    color:black;
+    font-weight: bold;
+}
 
 .progress-bar{
     background-color:white;
     color:black;
     font-weight: bold;
-    font-size: 1em;
     animation-delay: 1000;
+
+
 }
 
 .progress{
+    margin-bottom: 2em;
     background-color:dimgray;
-    margin: 2em;
+    height:5px;
+
+
+}
+.check{
+    background-color: #51616d;
+
 }
 
-.contact {
+
+
+
+.skillbox{
+    background-color: whitesmoke;
+    margin:0.6em;
+    color: black;
+    border-radius:0.5em;
+    padding: 0.3em;
+    float:left;
+}
+
+.other-skills{
+    padding: 1em;
+    margin:1em;
+
+}
+
+
+
+
+.contact, .skills{
     height:100%;
     width:100%;
     background-size:cover;
@@ -202,6 +268,50 @@ a:focus, a:hover {
     float:right;
 }
 
+.tablei{
+
+    display: block;
+    margin: auto;
+    width: 65%;
+}
+
+#project-category{
+    background-color: black;
+}
+#clients{
+    font-weight: bold;
+}
+.project-content{
+    margin:1em;
+
+    background-color: whitesmoke;
+    color:black;
+    margin-bottom:1em;
+
+
+}
+.projects-filter{
+    text-align: center;
+    padding:2em;
+}
+
+.btn{
+    margin:0.5em;
+
+}
+.card-block h4{
+    font-weight: bold;
+}
+
+.projects-filter button{
+
+    font-weight:bold;
+    margin:0.1em;
+    margin-top:0;
+}
+
+
+
 /* Media Queries for Devices */
 
 @media only screen and (max-width: 768px) {
@@ -211,37 +321,40 @@ a:focus, a:hover {
         background-color: darkslategray;
         overflow:hidden;
     }
-    
+
     #languages{
         background-color: white;
         height:auto;
         width: auto;
         margin-bottom: 1em;
         text-align: center;
-        
-    }
-    
-    #languages tr td {
-    text-align: center;
-    font-size: 3em;
-    line-height: 1.0em;
 
-}
-    
+    }
+
+    #languages tr td {
+        text-align: center;
+        font-size: 3em;
+        line-height: 1.0em;
+
+    }
+
     #experience-section h2{
         padding-top: 0.5em;
     }
-    
-       #experience-section {
-    padding:1.5em;
+
+    #experience-section {
+        padding:1.5em;
     }
-    
+
     .navbar-inverse{
-    background-color: black;
-    border-color: black;
-    width:100%;
+        background-color: black;
+        border-color: black;
+        width:100%;
+
+    }
 
 }
-    
-}
+
+
+
 
