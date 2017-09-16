@@ -39,7 +39,6 @@ $(window).scroll(function() {
     if (scroll >= 1500) {
         $(".progress-bar").addClass("animated fadeInLeft");
     }
-
     if (scroll >=2000) {
 
         $(".company1").addClass("animated fadeInUp");
@@ -47,6 +46,7 @@ $(window).scroll(function() {
     }
 }); 
 
+//filter on project-category
 function showProjects(){
     $(".projects-filter button a").click(function(e){
         e.preventDefault();

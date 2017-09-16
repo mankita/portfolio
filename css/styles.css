@@ -11,7 +11,7 @@ html,body{
 
 body{
 
-
+    height: 100%
     width: 100%;
     font-size: 15px;
     font-weight: 150;
@@ -29,6 +29,10 @@ body{
 
     width:100%;
 
+}
+
+.contact{
+    height: 100%;
 }
 
 
@@ -64,7 +68,7 @@ body{
 
 .sect {
 
-    background-color:#2C343B;
+    background-color:black;
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -77,8 +81,7 @@ body{
 
 .secto{
 
-
-
+    background: #1c1c1d;
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
@@ -101,6 +104,7 @@ body{
     color: white;
 
 }
+
 
 
 .scroller{
@@ -126,7 +130,7 @@ body{
 
 .intro p{
     font-size:1.2em;
-    color:greenyellow;
+
 }
 
 
@@ -183,19 +187,19 @@ a:focus, a:hover {
 
 
 .company1{
-    background-color: #51616d;
+    background-color:#515151;
     float:left; 
     margin-bottom: 2em;
     overflow: hidden;
     padding-right:20px; 
-    border-right: 1px solid #ccc;
+
 
 }
 
 
 
 .company2{
-    background-color:#51616d;
+    background-color:#515151;
     float:right;
     margin-bottom: 2em;
     overflow: hidden;
@@ -215,7 +219,7 @@ a:focus, a:hover {
 .company-name{
     line-height: 110%;
     text-align: right;
-    color:red;
+    color:#D4B7B7;
     font-size: 1.50em;
 
 
@@ -226,7 +230,7 @@ a:focus, a:hover {
 }
 .skills h3{
     text-align:center;
-    color: red;
+    color: rosybrown;
 }
 
 .experience p{
@@ -262,7 +266,7 @@ a:focus, a:hover {
 
 }
 .skill-content{
-    background-color: #51616d;
+    background-color: #1c1c1d;
     border-radius: 1em;
     padding:1em;
     margin:2em;
@@ -344,6 +348,7 @@ a:focus, a:hover {
 
 
 @media only screen and (max-width: 768px) {
+
     .about, .skills{
         height:auto;
     } 
@@ -351,7 +356,7 @@ a:focus, a:hover {
         font-size:1.0em;
 
     }
-  
+
     #languages{
         height:auto;
         width: auto;
@@ -367,13 +372,14 @@ a:focus, a:hover {
 
     }
 
-    .skill-content{
-    background-color: #51616d;
-    border-radius: 0.2em;
-    padding:0em;
-    margin:0em;
 
-}
+    .skill-content{
+        background-color: #51616d;
+        border-radius: 0.2em;
+        padding:0em;
+        margin:0em;
+
+    }
 
     #experience-section h2{
         padding-top: 0.5em;
@@ -390,6 +396,15 @@ a:focus, a:hover {
 
     }
 
+    .intro h1{
+        font-size:2em;
+    }
+
+    .intro p{
+        font-size:1em;
+
+    }
+
 }
 
 
@@ -398,8 +413,8 @@ a:focus, a:hover {
         padding-top:3em;
 
     }
-    
-  
+
+
 }
 
 
