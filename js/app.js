@@ -37,8 +37,8 @@ $(window).scroll(function() {
     }
     if (scroll >=2000) {
 
-        $(".company1").addClass("animated fadeInUp");
-        $(".company2").addClass("animated fadeInUp");
+        $(".company1").addClass("animated fadeInLeft");
+        $(".company2").addClass("animated fadeInRight");
     }
 }); 
 

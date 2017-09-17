@@ -1,29 +1,21 @@
-
-
-
+/* Handmade Styles added for custom and responsive display on all device including mobile,tablets and desktop.
+@copyright Ankita Mishra.
+*/
 
 html,body{
     height:100%;
-
-
-
 }
 
 body{
-
-    height: 100%
+    height: 100%;
     width: 100%;
     font-size: 15px;
-    font-weight: 150;
     letter-spacing: 0.5px;
     line-height: 1.5;
     color: #FFFFFF;
     background: #1c1c1d;
-    font-family: "Josefin Sans", sans-serif;
-
+    font-family: "Josefin Sans", sans-serif
 }
-
-
 
 .navbar-inverse{
 
@@ -35,16 +27,13 @@ body{
     height: 100%;
 }
 
-
 .about h3{
     color:aquamarine;
     font-size:2em;
     margin-bottom: 1em;
 }
 
-
 .connect{
-
     margin-bottom:2em;
     font-size:2em;
     color:black;
@@ -61,10 +50,7 @@ body{
     font-size:2em;
     font-family: 'Lobster', cursive;
     color:gray;
-
-
 }
-
 
 .sect {
 
@@ -75,8 +61,6 @@ body{
     padding:2.5em;
     color: white;
     overflow: hidden;
-
-
 }
 
 .secto{
@@ -88,10 +72,7 @@ body{
     padding-top:2em;
     color:white;
     overflow: hidden;
-
-
 } 
-
 
 .home {
     height:100%;
@@ -104,8 +85,6 @@ body{
     color: white;
 
 }
-
-
 
 .scroller{
     color: white;
@@ -133,9 +112,6 @@ body{
 
 }
 
-
-
-
 a:focus, a:hover {
     color: deepskyblue;
     text-decoration: none;
@@ -151,17 +127,11 @@ a:focus, a:hover {
 
 }
 
-
-
 #experience-section{
 
     color:white;
     overflow: auto;
     display: block;
-
-
-
-
 }
 
 
@@ -183,28 +153,19 @@ a:focus, a:hover {
 
 }
 
-
-
-
 .company1{
     background-color:#515151;
     float:left; 
     margin-bottom: 2em;
     overflow: hidden;
     padding-right:20px; 
-
-
 }
-
-
 
 .company2{
     background-color:#515151;
     float:right;
     margin-bottom: 2em;
     overflow: hidden;
-
-
 }
 
 .divider {
@@ -212,7 +173,6 @@ a:focus, a:hover {
     overflow: hidden;
     background-color: #e0e0e0;
     opacity: 0.2;
-
 }
 
 
@@ -221,8 +181,6 @@ a:focus, a:hover {
     text-align: right;
     color:#D4B7B7;
     font-size: 1.50em;
-
-
 }
 
 .skills p{
@@ -241,7 +199,6 @@ a:focus, a:hover {
 .experience h5,h6{
     text-align:right;
     line-height: 110%;
-
 }
 
 .role{
@@ -253,16 +210,12 @@ a:focus, a:hover {
     background-color:white;
     color:black;
     font-weight: bold;
-    animation-delay: 1000;
-
-
 }
 
 .progress{
     margin-bottom: 2em;
     background-color:dimgray;
     height:5px;
-
 
 }
 .skill-content{
@@ -291,10 +244,6 @@ a:focus, a:hover {
     margin:1em;
 
 }
-
-
-
-
 
 .contact-icon{
     width:70px;
@@ -343,9 +292,7 @@ a:focus, a:hover {
 }
 
 
-/* Media Queries for Devices */
-
-
+/* Media Queries for Devices of different size*/
 
 @media only screen and (max-width: 768px) {
 
@@ -369,15 +316,11 @@ a:focus, a:hover {
         font-size: 3em;
         line-height: 1.5em;
 
-
     }
-
-
     .skill-content{
         border-radius: 0.2em;
         padding:0em;
         margin:0em;
-
     }
 
     #experience-section h2{
@@ -406,14 +349,11 @@ a:focus, a:hover {
 
 }
 
-
 @media only screen and (min-width: 768px){
     .about h2{
         padding-top:3em;
 
     }
-
-
 }
 
 
