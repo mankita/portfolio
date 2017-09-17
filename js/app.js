@@ -1,7 +1,6 @@
 $(document).ready(function(){
     setContents();
     hideContents();
-    showProjects();
 });
 
 //scrolling to div when clicked on nav links
@@ -12,9 +11,8 @@ function setContents(){
         //var sectionID = e.currentTarget.id + "-section"
         var currentLink = $(this).attr('href');
         //alert("Button " + currentLink)
-        $("html body").animate({
+        $("body, html").animate({
             scrollTop:$(currentLink).offset().top
-
         }, 1000) 
 
     })
@@ -26,8 +24,6 @@ function hideContents(){
         $(".navbar-collapse").collapse('hide');
     })
 }
-
-
 
 // onscroll animation for skills section(progress-bar)
 
@@ -46,7 +42,7 @@ $(window).scroll(function() {
     }
 }); 
 
-//filter on project-category
+/*filter on project-category
 function showProjects(){
     $(".projects-filter button a").click(function(e){
         e.preventDefault();
@@ -56,7 +52,7 @@ function showProjects(){
     });
 
 
-}
+} */
 
 
 
