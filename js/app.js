@@ -54,6 +54,29 @@ function showProjects(){
 
 } */
 
+function contactFormSubmit() {
+    var name = $("#fromName").val();
+    var from = $("#fromEmail").val();
+    var textMessage = $("#textMessage").val();
+    $.ajax({
+        url: "https://formspree.io/ankita.mishra2431@gmail.com", 
+        method: "POST",
+        data: {
+            name: name,
+            from: from,
+            message: textMessage
+        },
+        dataType: "json",
+        success: function(response) {
+            console.log("Message sent");
+        },
+        error: function(j, e) {
+            console.log(j);
+            console.log(e);
+        }
+    });
+}
+
 
 
 
