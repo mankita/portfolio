@@ -23,9 +23,6 @@ body{
 
 }
 
-.contact{
-    height: 100%;
-}
 
 .about h3{
     color:aquamarine;
@@ -290,7 +287,14 @@ a:focus, a:hover {
 .about{
     height:100%
 }
+ 
+.contact-form{
+  color:white;
+}
 
+label{
+    color:black;
+}
 
 /* Media Queries for Devices of different size*/
 
@@ -347,7 +351,7 @@ a:focus, a:hover {
 
     }
 
-}
+  
 
 @media only screen and (min-width: 768px){
     .about h2{
