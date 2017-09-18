@@ -48,7 +48,7 @@ function showProjects(){
         e.preventDefault();
         var projectContent = $(this).attr('data-filter'); 
         $(projectContent).toggle();
-       
+
     });
 
 
@@ -58,6 +58,8 @@ function contactFormSubmit() {
     var name = $("#fromName").val();
     var from = $("#fromEmail").val();
     var textMessage = $("#textMessage").val();
+    var form = $("#contact-form");
+    var messageSent = $("#message-sent");
     $.ajax({
         url: "https://formspree.io/ankita.mishra2431@gmail.com", 
         method: "POST",
@@ -69,12 +71,15 @@ function contactFormSubmit() {
         dataType: "json",
         success: function(response) {
             console.log("Message sent");
+            form.hide();
+            messageSent.show();
         },
         error: function(j, e) {
             console.log(j);
             console.log(e);
         }
     });
+
 }
 
 
