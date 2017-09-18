@@ -296,6 +296,9 @@ label{
     color:black;
 }
 
+.contact{
+    margin-bottom:1.5em;
+}
 /* Media Queries for Devices of different size*/
 
 @media only screen and (max-width: 768px) {

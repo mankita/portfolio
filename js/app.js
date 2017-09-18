@@ -70,14 +70,10 @@ function contactFormSubmit() {
         },
         dataType: "json",
         success: function(response) {
-            console.log("Message sent");
             form.hide();
             messageSent.show();
-        },
-        error: function(j, e) {
-            console.log(j);
-            console.log(e);
         }
+    
     });
 
 }
