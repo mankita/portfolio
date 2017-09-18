@@ -30,8 +30,6 @@ function hideContents(){
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
     var elementOffset = $('.company1').offset().top;
-    // prompt(elementOffset)
-
     if (scroll >= 1500) {
         $(".progress-bar").addClass("animated fadeInLeft");
     }
@@ -40,6 +38,7 @@ $(window).scroll(function() {
         $(".company1").addClass("animated fadeInLeft");
         $(".company2").addClass("animated fadeInRight");
     }
+    
 }); 
 
 /*filter on project-category
