@@ -1,4 +1,3 @@
-
 /* Handmade Styles added for custom and responsive display on all device including mobile,tablets and desktop.
 @copyright Ankita Mishra.
 */
@@ -213,9 +212,7 @@ a:focus, a:hover {
     height:5px;
 
 }
-.about h2{
-    padding-top:4em;
-}
+
 
 .skill-content{
     background-color: #1c1c1d;
@@ -223,7 +220,7 @@ a:focus, a:hover {
     padding-top: 1em;
     margin:1em;
     margin-bottom:2em;
-    
+
 }
 
 .skills{
@@ -317,9 +314,6 @@ a:focus, a:hover {
     .about, .skills, .contact{
         height:auto;
     } 
-    .about h2{
-        padding:0em;
-    }
 
     .about p{
         font-size:1em;
@@ -337,16 +331,27 @@ a:focus, a:hover {
         line-height: 1.5em;
 
     }
-    
+
     .company1, .company2{
         margin-bottom: 3em;
     }
-   
 
-.navbar-inverse{
-    background-color: black;
-    border-color: black;
-    width:100%;
 
-}
+    .navbar-inverse{
+        background-color: black;
+        border-color: black;
+        width:100%;
+
+    }
+    @media only screen and (min-width: 991px){
+        .about h2{
+            padding:0em
+        }
+    }
+
+
+
+
+
+
 
