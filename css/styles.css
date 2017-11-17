@@ -178,8 +178,15 @@ a:focus, a:hover {
 .company-name{
     line-height: 110%;
     text-align: right;
-    color:rosybrown;
+    color:aquamarine;
     font-size: 1.50em;
+}
+
+.firmname{
+    line-height: 110%;
+    text-align: right;
+    color:aqua;
+    font-size: 1em;
 }
 
 .skills h3{
@@ -259,8 +266,6 @@ a:focus, a:hover {
 #clients{
     font-weight: bold;
 }
-
-
 
 
 .btn{
